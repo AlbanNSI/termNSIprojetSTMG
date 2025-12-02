@@ -1,0 +1,27 @@
+h1
+{
+	font-family : "Arial";
+	color : #082640;
+	font-size : 30px;
+}
+header {
+	position: sticky;
+	top: 0;
+	padding: 20px;
+	text-align: center;
+	color: #082640;
+	background-color: #e61811;
+	font-size: 30px;
+ }
+.container {
+  display: flex;
+  background-color: #e61811;
+  justify-content: space-evenly;
+}
+
+.container div {
+  background-color: #f2ac3e;
+  margin: 5px;
+  padding: 20px;
+  font-size: 30px;
+}
