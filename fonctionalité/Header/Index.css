@@ -16,6 +16,7 @@ header {
 .container {
   display: flex;
   background-color: #e61811;
+  justify-content: space-evenly;
 }
 
 .container div {
