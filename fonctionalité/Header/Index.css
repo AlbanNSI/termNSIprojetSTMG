@@ -10,19 +10,20 @@ header {
 	padding: 20px;
 	text-align: center;
 	color: #e61811;
-	background-color: #082640;
+	background-color: #DEDED9;
 	font-size: 30px;
  }
 .container {
   display: flex;
-  background-color: #e61811;
+  background-color: #DEDED9;
   justify-content: space-evenly;
 }
 
 .container div {
-  background-color: #f2ac3e;
+  background-color: #010A36;
   margin: 5px;
   padding: 20px;
   font-size: 30px;
 
 }
+
