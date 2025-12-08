@@ -25,3 +25,8 @@ header {
   padding: 20px;
   font-size: 30px;
 }
+a:link {
+  color: #082640;
+  background-color: transparent;
+  text-decoration: none;
+}
