@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Firebird';
+    src: url('Firebird-Bold.eot');
+    src: local('Firebird Bold'), local('Firebird-Bold'),
+        url('Firebird-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Firebird-Bold.woff2') format('woff2'),
+        url('Firebird-Bold.woff') format('woff'),
+        url('Firebird-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+p{
+	font-family: 'Firebird'
+}
