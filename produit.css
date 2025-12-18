@@ -1,0 +1,20 @@
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{margin:0;color:#222}
+.container{max-width:1100px;margin:0 auto;padding:0 16px}
+.topbar{background:#111;color:#fff;padding:12px 0}
+.topbar .brand{font-weight:700;font-size:20px;color:#fff;text-decoration:none;margin-right:24px}
+.topbar .nav{display:inline-block}
+.topbar .nav a{color:#ddd;text-decoration:none;margin-right:16px}
+.topbar .nav a.active{color:#fff;text-decoration:underline}
+.hero{background:#f7f7f7;padding:36px 0;text-align:center}
+.hero h1{margin:0 0 8px;font-size:32px}
+.hero p{margin:0;color:#555}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:28px 16px;max-width:1100px;margin:0 auto}
+.card{background:#fff;border:1px solid #e6e6e6;padding:12px;border-radius:6px;text-align:left;display:flex;flex-direction:column}
+.card img{width:100%;height:auto;border-radius:4px}
+.card h3{margin:12px 0 6px;font-size:18px}
+.card p{margin:0 0 12px;color:#555;flex:1}
+.btn{display:inline-block;background:#111;color:#fff;padding:8px 12px;border-radius:4px;text-decoration:none}
+.contact{background:#fafafa;padding:24px;text-align:center;margin-top:24px}
+footer{padding:18px;text-align:center;color:#777;font-size:14px}
+@media (max-width:520px){.topbar .nav{display:block;margin-top:8px}.hero h1{font-size:24px}}
