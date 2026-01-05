@@ -4,21 +4,29 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="Index.css">
 		<title>Mini Entreprise : Strik3r</title>
+		<script src="script_menu.js"></script>
 		<style>
 
 		</style>
 	</head>
 	<body>
-		<header>
-			<div class="container">
-				<div><a href="Accueil.html"><img src=’mon image.jpg’ alt=’logo’></a></div>
-				<div><a href="Actualité.html"><b>Actualité</b></a></div>
-				<div><a href="Valeurs.html"><b>Valeur</b></a></div>
-				<div><a href="Produit.html.html"><b>Produit</b></a></div>
-			</div>
-		</header>
-		<br>
-		<br>
+		<nav class="navbar">
+  <div class="burger" onclick="toggleMenu()">☰</div>
+</nav>
+
+<div id="overlay" class="overlay" onclick="closeMenu()"></div>
+
+<aside id="menu-lateral" class="menu-lateral">
+  <ul>
+    <li><a href="#">Actus</a></li>
+    <li><a href="#">Boutique</a></li>
+    <li><a href="#">Valeurs</a></li>
+    <li><a href="#">Produits</a></li>
+    <li><a href="#">À propos de nous</a></li>
+  </ul>
+</aside>
+
+<script src="script_menu.js"></script>
 		
 		<center>
 			<img src=’mon image.jpg’ alt=’logo’>

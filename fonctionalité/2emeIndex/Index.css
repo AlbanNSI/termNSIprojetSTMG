@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #F5FFFA;
+  color: black;
+}
+
 h1
 {
 	font-family : "Arial";
@@ -32,3 +39,74 @@ a:link {
   text-decoration: none;
 }
 
+.navbar {
+  background: #F5FFFA;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.burger {
+  font-size: 28px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100%;
+  background: #082640;
+  transform: translateX(-100%);
+  transition: transform 0.35s ease;
+  padding-top: 80px;
+  z-index: 20;
+}
+
+.menu-lateral.open {
+  transform: translateX(0);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: none;
+  z-index: 15;
+}
+
+.overlay.show {
+  display: block;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-lateral li {
+  margin: 20px 0;
+}
+
+.menu-lateral a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  display: block;
+  transition: 0.2s;
+}
+
+.menu-lateral a:hover {
+  background: #FFFACD;
+  border-left: 4px solid #FF0000;
+  color: black;
+}
