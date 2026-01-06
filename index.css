@@ -151,3 +151,8 @@ h1
   border-left: 4px solid rgb(221, 29, 29); /* Effet néon */
 
 }
+footer {
+    background: #0b2a45;
+    color: white;
+    padding: 40px;
+    margin-top: 50px;
