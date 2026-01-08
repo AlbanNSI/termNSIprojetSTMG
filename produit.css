@@ -1,11 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #F5FFFA;
+}
 
-#overlay {
-  display: none;
+.menu-btn {
   position: fixed;
-  width: 100%;
+  top: 10px;
+  left: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 15px;
+  z-index: 1001;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
   height: 100%;
-  background: rgba(0,0,0,0.4);
+  background: #082640;
+  color: white;
+  padding-top: 50px;
+  transition: 0.4s ease;
+  z-index: 1002;
+  box-shadow: 5px 0 20px rgba(0,0,0,0.5);
+}
+
+.side-menu.open {
+  left: 0;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.side-menu li {
+  padding: 0;
+}
+
+.side-menu ul li a {
+  display: block;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.side-menu ul li a:hover {			#néon 
+  color: #FF2B00;
+  text-shadow:
+    0 0 5px #FF2B00,
+    0 0 10px #FF2B00,
+    0 0 20px #FF2B00;
+  background: rgba(255,255,0,0.1);
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu-logo {
+  width: 120px;
+}
+
+.close-btn {
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+}
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: none;
   z-index: 1000;
+}
+
+.menu-overlay.show {
+  display: block;
 }
 
 .header {
@@ -77,19 +158,17 @@
 }
 
 .scroll-top img {
-  width: 40px;       
-  width: 40px;      
+  width: 40px;
   height: auto;
-}
-
-.scroll-top img:hover {       
-  transform: scale(1.1);
   transition: 0.2s;
 }
 
+.scroll-top img:hover {
+  transform: scale(1.1);
+}
 
 footer {
-  background: #333;
+  background: #2748D9;
   color: white;
   text-align: center;
   padding: 20px;
