@@ -47,6 +47,7 @@ h1
 }
 
 .header {
+  margin: auto;
   position: sticky;
   top: 0;
   background: #F5FFFA;
