@@ -2,24 +2,25 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
   <title>produit – Strik3r</title>
-  <link rel="stylesheet" href="produit.css">
   <script defer src="produit.js"></script>
 </head>
 
 <body>
 
 <nav class="navbar">
-  <div class="bar" onclick="openMenu()">☰</div>
+  <div class="burger" onclick="openMenu()">☰</div>
 </nav>
 
 <aside id="menu" class="side-menu">
   <span class="close-arrow" onclick="closeMenu()">←</span>
   <ul>
-    <li><a href="#">Accueil</a></li>
-    <li><a href="#">Produits</a></li>
-    <li><a href="#">Valeurs</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="../">Accueil</a></li>
+    <li><a href="#">Boutique</a></li>
+    <li><a href="actualite.html">Actualité</a></li>
+    <li><a href="Valeurs/valeurs.html">Valeurs</a></li>
+    <li><a href="">Contact</a></li>
   </ul>
 </aside>
 
@@ -27,7 +28,7 @@
 
 
 <header class="header">
-  <img src="Image/logo.png" alt="Logo Strik3r" class="logo">
+  <a href="index.html"><img src="Image/logo.png" class="logo"></a>
   <p><strong>Nos produits </strong></p> 
   <p class="slogan">Votre but à portée de main</p>
 </header>
@@ -56,13 +57,28 @@
 <img src="Image/fleche.png" alt="Retour en haut">
 </button>
 
+<center>
 <footer>
-  <p>56/70 Rue du Perron à Oullins 69600</p>
-  <p>contact@strik3r.fr</p>
-  <a href="https://www.instagram.com/strik3r2025/" target="_blank">
-    <img src="Image/instagram.png" alt="Instagram" class="insta">
-  </a>
+    <h3>CONTACT</h3>
+
+    <p>Email : <a href="mailto:strik3r@saint-thom.fr">strik3r@saint-thom.fr</a></p>
+
+    
+    <a href="https://www.instagram.com/strik3r2025/" target="_blank">
+      <img src="Image/instagram.png" alt="Instagram" class="insta">Instagram
+    </a>
+    
+
+    <p>
+        Adresse : 56/70 Rue du Perron  
+        <br>69600 Oullins-Pierre-Bénite, France
+    </p>
+
+    <div class="copyright">
+        © 2025 — Tous droits réservés
+    </div>
 </footer>
+</center>
 
 </body>
 </html>

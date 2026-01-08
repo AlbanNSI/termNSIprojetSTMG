@@ -46,6 +46,14 @@ h1
   z-index: 20;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+  background: #F5FFFA;
+  text-align: center;
+  padding: 20px;
+  z-index: 900;
+}
 
 .menu-lateral a {
   color: #ffffff;
