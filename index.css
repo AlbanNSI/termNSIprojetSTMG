@@ -7,9 +7,9 @@ body {
 
 h1
 {
-	font-family : "Arial";
-	color : #082640;
-	font-size : 30px;
+  font-family : "Arial";
+  color : #082640;
+  font-size : 30px;
 }
 .navbar {
   background: #ADACAC;
@@ -63,14 +63,14 @@ h1
 }
 
 .menu-lateral li {
-  margin: 20px 0;
+  margin: 2px 0;
 }
 
 .menu-lateral a {
   color: #ffffff;
   text-decoration: none;
   font-size: 18px;
-  padding: 10px 20px;
+  padding: 1px 2px;
   display: block;
   transition: 0.2s;
 }
@@ -129,7 +129,7 @@ h1
 }
 
 .menu-lateral li {
-  margin: 20px 0;
+  margin:  0;
 }
 
 .menu-lateral a {
@@ -151,13 +151,7 @@ h1
   border-left: 4px solid rgb(221, 29, 29);
 
 }
-footer {
-    background: #0b2a45;
-    color: white;
-    padding: 40px;
-    margin-top: 50px;
 
-}
 .caroussel {
     position: relative;
     max-width: 900px;
@@ -240,10 +234,14 @@ footer {
   opacity: 1;
 }
 
+.card:hover .overlay-text {
+  opacity: 1;
+}
+
 .scroll-top {
   position: fixed;
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   background: none;
   border: none;
   cursor: pointer;
@@ -262,13 +260,53 @@ footer {
 
 
 footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
+    background-color: #082640;
+    color: #ffffff;
+    margin-top: 60px;
+    padding: 30px 20px;
+    width: 100%;
 }
+
+footer p {
+    color: #e0e0e0;
+    margin: 8px 0;
+}
+
+
+a {
+    color: #4db6ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+    table, tr, td {
+        display: block;
+        width: 100%;
+    }
+
+    td {
+        margin-bottom: 20px;
+    }
+
+    body > center > p {
+        width: 90%;
+    }
+}
+
 
 .insta {
   width: 30px;
   margin-top: 10px;
+
 }
+
