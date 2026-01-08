@@ -192,9 +192,7 @@ h1
 
 @media (max-width: 600px) {
 }
-.slide {
-  height: 250px;
-}
+
 
 .card:hover img {
   filter: blur(4px);
