@@ -46,25 +46,6 @@ h1
   z-index: 20;
 }
 
-.menu-lateral.open {
-  transform: translateX(0);
-}
-
-
-
-.overlay.show {
-  display: block;
-}
-
-.menu-lateral ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu-lateral li {
-  margin: 2px 0;
-}
 
 .menu-lateral a {
   color: #ffffff;
@@ -84,11 +65,7 @@ h1
   z-index: 10;
 }
 
-.burger {
-  font-size: 28px;
-  cursor: pointer;
-  margin-right: 20px;
-}
+
 
 .menu-lateral {
   position: fixed;
@@ -132,15 +109,6 @@ h1
   margin:  0;
 }
 
-.menu-lateral a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 10px 20px;
-  display: block;
-  transition: 0.2s;
-}
-
 .menu-lateral a:hover {
   background: #FFFACD;
   border-left: 4px solid #FF0000;
@@ -168,9 +136,6 @@ h1
 .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
-}
-
-.slide {
     min-width: 100%;
     height: 400px;
     object-fit: cover;
@@ -224,8 +189,9 @@ h1
 @media (max-width: 600px) {
 }
 .slide {
-        height: 250px;
+  height: 250px;
 }
+
 .card:hover img {
   filter: blur(4px);
 }
