@@ -145,7 +145,7 @@ h1
   background: #FFFACD;
   border-left: 4px solid #FF0000;
   color: black;
-=======
+}
 .menu-lateral a:hover {
   background: hsl(46, 100%, 75%);
   border-left: 4px solid rgb(221, 29, 29); /* Effet néon */
@@ -242,3 +242,4 @@ footer {
 
 
 
+}
