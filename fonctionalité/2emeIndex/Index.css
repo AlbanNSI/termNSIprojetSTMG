@@ -75,7 +75,6 @@ h1
   transition: 0.2s;
 }
 
-<<<<<<< HEAD
 .navbar {
   background: #F5FFFA;
   padding: 15px 20px;
@@ -146,9 +145,8 @@ h1
   background: #FFFACD;
   border-left: 4px solid #FF0000;
   color: black;
-=======
+}
 .menu-lateral a:hover {
   background: hsl(46, 100%, 75%);
-  border-left: 4px solid rgb(221, 29, 29); /* Effet néon */
->>>>>>> 3e53c39260c5dceec35384e85ba42bee848f5d58
+  border-left: 4px solid rgb(221, 29, 29);
 }
