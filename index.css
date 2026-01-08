@@ -145,18 +145,13 @@ h1
   background: #FFFACD;
   border-left: 4px solid #FF0000;
   color: black;
-=======
+}
 .menu-lateral a:hover {
   background: hsl(46, 100%, 75%);
   border-left: 4px solid rgb(221, 29, 29); /* Effet néon */
 
-}
-footer {
-    background: #0b2a45;
-    color: white;
-    padding: 40px;
-    margin-top: 50px;
 
+}
 .caroussel {
     position: relative;
     max-width: 900px;
@@ -227,10 +222,39 @@ footer {
 
 
 @media (max-width: 600px) {
-    .slide {
-        height: 250px;
-    }
 }
+.slide {
+        height: 250px;
+}
+.card:hover img {
+  filter: blur(4px);
+}
+
+.card:hover .overlay-text {
+  opacity: 1;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.scroll-top img {
+  width: 40px;     
+  height: auto;
+}
+
+.scroll-top img:hover {       
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+
 footer {
   background: #333;
   color: white;
@@ -238,7 +262,7 @@ footer {
   padding: 20px;
 }
 
-
-
-
-
+.insta {
+  width: 30px;
+  margin-top: 10px;
+}
