@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #F5FFFA;
+  background: #e4e4e4;
   color: black;
 }
 
@@ -320,3 +320,4 @@ a:hover {
   cursor: pointer;
   font-size: 50px;
 }
+
