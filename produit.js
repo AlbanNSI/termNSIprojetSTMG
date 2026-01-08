@@ -1,13 +1,9 @@
 function openMenu() {
-  document.getElementById("menu").style.left = "0";
-  document.getElementById("overlay").style.display = "block";
+  document.getElementById("sideMenu").classList.add("open");
+  document.getElementById("menuOverlay").classList.add("show");
 }
 
 function closeMenu() {
-  document.getElementById("menu").style.left = "-250px";
-  document.getElementById("overlay").style.display = "none";
-}
-
-function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  document.getElementById("sideMenu").classList.remove("open");
+  document.getElementById("menuOverlay").classList.remove("show");
 }
