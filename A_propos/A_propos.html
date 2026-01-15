@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Menu-déroulant</title>
-    <link rel="stylesheet" href="style_menu.css">
-	<script src="script_men.js"></script>
-</head>
-
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../index.css">
+		<title>Mini Entreprise : Strik3r</title>
+		<script src="../script_menu.js"></script>
+		<script src="../caroussel.js"></script>
+  </head>
+	
 <body>
-
+<!--début menu latéral-->
 <nav class="navbar">
   <div class="burger" onclick="toggleMenu()">☰</div>
 </nav>
@@ -16,14 +16,17 @@
 <div id="overlay" class="overlay" onclick="closeMenu()"></div>
 
 <aside id="menu-lateral" class="menu-lateral">
+  <div class="menu-header">
+    <span class="close-arrow" onclick="closeMenu()">✕</span>
+  </div>
   <ul>
-    <li><a href="#">Actus</a></li>
-    <li><a href="#">Boutique</a></li>
-    <li><a href="#">Valeurs</a></li>
-    <li><a href="#">Produits</a></li>
-    <li><a href="#">À propos de nous</a></li>
+    <li><a href="../actualite.html">Actualité</a></li>
+    <li><a href="../Valeurs/valeurs.html">Valeurs</a></li>
+    <li><a href="../Produit/produit.html">Produits</a></li>
+    <li><a href="../fonctionalité/A propos/A_propos.html">À propos de nous</a></li>
   </ul>
-</aside>
+</aside> 
+
 
 <script src="script.js"></script>
 </body>
