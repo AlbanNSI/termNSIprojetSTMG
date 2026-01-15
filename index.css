@@ -252,11 +252,7 @@ a:hover {
 }
 
 /* Cards*/
-.gallery {
-  display: flex;
-  justify-content: space-around;
-  padding: 100px 20px;
-}
+
 
 .card {
   position: relative;
