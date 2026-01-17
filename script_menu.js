@@ -14,3 +14,17 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 //commit pk ça ne commit pas
+
+document.addEventListener("DOMContentLoaded", function () {
+const map = L.map("map").setView([45.7181, 4.8084], 14);
+
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+attribution: "&copy; OpenStreetMap contributors"
+}).addTo(map);
+
+L.marker([45.7181, 4.8084])
+.addTo(map)
+.bindPopup("Strik3r – Oullins")
+.openPopup();
+  });
+
