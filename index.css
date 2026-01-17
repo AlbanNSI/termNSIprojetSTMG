@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   background: #e4e4e4;
   color: black;
+  font-family: Arial, sans-serif;
 }
 
 h1
@@ -23,8 +24,11 @@ h1
 .logo {
   font-size: 24px;
   font-weight: bold;
-  width:120px;
-  height:80px;
+  /*width:120px;*/
+  /*height:80px;*/
+  
+  width:250px;
+  height:300px;
 }
 
 .logoimage{
@@ -40,8 +44,7 @@ h1
   cursor: pointer;
   margin-right: 20px;
 }
-
-.menu-lateral {
+.menu-lateral{
   position: fixed;
   top: 0;
   left: 0;
@@ -52,7 +55,7 @@ h1
   transition: transform 0.35s ease;
   padding-top: 80px;
   z-index: 20;
-}
+ }
 
 .menu-lateral.open {
   transform: translateX(0);
@@ -250,6 +253,8 @@ a:hover {
 .insta {
   width: 30px;
   margin-top: 10px;
+  vertical-align: middle;
+  margin-right: 8px;
 
 }
 
@@ -301,10 +306,6 @@ a:hover {
 
 /* Fin des cards*/
 
-.logoimage{
-  width:250px;
-  height:300px;
-}
 
 
 .close-arrow {
@@ -322,18 +323,12 @@ a:hover {
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-}
-
 .logo-container {
   text-align: center;
   margin: 30px 0;
+  flex: 1;
 }
 
-.logo {
-  width: 180px;
-}
 
 .valeurs {
   text-align: center;
@@ -350,9 +345,6 @@ body {
   justify-content: space-between;
 }
 
-.valeur {
-  flex: 1;
-}
 
 .valeur h2 {
   margin-bottom: 15px;
@@ -367,45 +359,8 @@ body {
   font-style: italic;
 }
 
-footer {
-  background-color: #0b2239;
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
-  margin-top: 80px;
-}
-
-footer a {
-  color: #4da6ff;
-  text-decoration: none;
-}
-
 footer a:hover {
   text-decoration: underline;
-}
-
-.insta {
-  width: 18px;
-  vertical-align: middle;
-  margin-right: 8px;
-}
-
-.copyright {
-  margin-top: 20px;
-  font-size: 14px;
-}
-
-.scroll-top {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-.scroll-top img {
-  width: 40px;
 }
 
 
@@ -414,6 +369,7 @@ footer a:hover {
     flex-direction: column;
   }
 }
+
 
 
 
